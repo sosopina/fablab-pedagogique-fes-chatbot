@@ -17,7 +17,6 @@ fetch('responses.json')
 const chatMessages = document.getElementById('chat-messages');
 const userInput = document.getElementById('user-input');
 const sendButton = document.getElementById('send-button');
-const infoButton = document.querySelector('.info-button');
 const infoModal = document.getElementById('info-modal');
 const closeModal = document.querySelector('.close-modal');
 const quickActionButtons = document.querySelectorAll('.quick-action-btn');
@@ -130,13 +129,11 @@ quickActionButtons.forEach(button => {
     });
 });
 
-// Handle info modal
-infoButton.addEventListener('click', () => {
-    infoModal.style.display = 'flex';
-});
-
-closeModal.addEventListener('click', () => {
-    infoModal.style.display = 'none';
+// Handle Enter key press
+userInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        handleSend();
+    }
 });
 
 // Close modal when clicking outside
@@ -148,11 +145,6 @@ window.addEventListener('click', (e) => {
 
 // Event listeners
 sendButton.addEventListener('click', handleSend);
-userInput.addEventListener('keypress', (e) => {
-    if (e.key === 'Enter') {
-        handleSend();
-    }
-});
 
 // Add welcome message with delay
 setTimeout(() => {
