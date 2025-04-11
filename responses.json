@@ -1,0 +1,65 @@
+{
+    "questions": [
+        {
+            "question": "Qu'est-ce que le FabLab ?",
+            "answer": "Le FabLab Pédagogique de Fès est un espace de création et d'innovation où vous pouvez apprendre à utiliser différentes machines et technologies pour réaliser vos projets. C'est un lieu d'apprentissage et de partage de connaissances, ouvert à tous les passionnés de fabrication numérique."
+        },
+        {
+            "question": "Quelles machines sont disponibles ?",
+            "answer": "Nous avons des imprimantes 3D, des découpeuses laser, des fraiseuses CNC, des machines à coudre, des outils électroniques, et bien d'autres équipements pour la fabrication numérique et traditionnelle. Toutes nos machines sont disponibles pour les membres après une formation de sécurité."
+        },
+        {
+            "question": "Comment devenir membre ?",
+            "answer": "Pour devenir membre, vous pouvez venir nous voir au FabLab pendant les heures d'ouverture. Nous proposons différentes formules d'adhésion adaptées à vos besoins : étudiant, professionnel, ou entreprise. N'hésitez pas à nous contacter pour plus d'informations sur les tarifs et les avantages."
+        },
+        {
+            "question": "Quels sont les horaires d'ouverture ?",
+            "answer": "Le FabLab est ouvert du lundi au vendredi de 9h à 18h, et le samedi de 10h à 16h. Nous sommes fermés le dimanche. Pendant les vacances scolaires, les horaires peuvent être modifiés, consultez notre page Facebook pour les mises à jour."
+        },
+        {
+            "question": "Y a-t-il des formations ?",
+            "answer": "Oui, nous proposons régulièrement des formations sur différentes machines et technologies. Nous organisons également des ateliers thématiques, des workshops, et des événements spéciaux. Suivez notre page Facebook pour rester informé des prochaines formations."
+        },
+        {
+            "question": "Combien coûte l'adhésion ?",
+            "answer": "Les tarifs varient selon votre statut (étudiant, professionnel, etc.) et la formule choisie. Nous proposons des tarifs adaptés pour les étudiants et des formules mensuelles ou annuelles. Contactez-nous pour plus de détails sur nos offres spéciales."
+        },
+        {
+            "question": "Puis-je venir avec mon propre projet ?",
+            "answer": "Absolument ! Nous encourageons les membres à venir avec leurs propres projets. Nos mentors peuvent vous aider à les réaliser et vous guider dans l'utilisation des machines. C'est même la meilleure façon d'apprendre et de progresser !"
+        },
+        {
+            "question": "Qui peut utiliser le FabLab ?",
+            "answer": "Le FabLab est ouvert à tous : étudiants, professionnels, artistes, entrepreneurs, et toute personne intéressée par la fabrication numérique. Nous accueillons également les groupes scolaires et les entreprises pour des projets spécifiques."
+        },
+        {
+            "question": "Quels types de projets peut-on réaliser ?",
+            "answer": "Vous pouvez réaliser une grande variété de projets : prototypage, objets décoratifs, vêtements, projets électroniques, meubles, et bien plus encore. Les seules limites sont votre imagination et les règles de sécurité du FabLab. Consultez notre page Facebook pour voir des exemples de projets réalisés."
+        },
+        {
+            "question": "Y a-t-il des règles de sécurité ?",
+            "answer": "Oui, la sécurité est primordiale au FabLab. Tous les utilisateurs doivent suivre une formation de sécurité avant d'utiliser les machines. Le port d'équipements de protection est obligatoire pour certaines machines. Ces règles sont là pour assurer la sécurité de tous."
+        },
+        {
+            "question": "Proposez-vous des services pour les entreprises ?",
+            "answer": "Oui, nous proposons des services aux entreprises : prototypage rapide, formation du personnel, location d'espace, et accompagnement dans vos projets de fabrication numérique. Contactez-nous pour discuter de vos besoins spécifiques."
+        },
+        {
+            "question": "Comment puis-je suivre vos actualités ?",
+            "answer": "Vous pouvez nous suivre sur Facebook (FabLab Pédagogique Fès) et Instagram (@fablab.pedagogiquedefes) pour rester informé de nos dernières actualités, événements et projets. Nous y partageons régulièrement des photos de nos réalisations et des informations sur nos activités."
+        },
+        {
+            "question": "Organisez-vous des événements ?",
+            "answer": "Oui, nous organisons régulièrement des événements : workshops, hackathons, journées portes ouvertes, et rencontres avec des experts. Suivez notre page Facebook pour ne pas manquer nos prochains événements !"
+        },
+        {
+            "question": "Puis-je venir juste pour visiter ?",
+            "answer": "Bien sûr ! Nous organisons régulièrement des journées portes ouvertes où vous pouvez venir découvrir le FabLab, nos machines, et discuter avec nos membres. Vous pouvez également prendre rendez-vous pour une visite guidée."
+        },
+        {
+            "question": "Y a-t-il des projets communautaires ?",
+            "answer": "Oui, nous encourageons les projets communautaires et collaboratifs. C'est l'occasion de rencontrer d'autres passionnés, d'échanger des idées, et de réaliser des projets ensemble. Consultez notre page Facebook pour voir nos projets en cours."
+        }
+    ],
+    "default_response": "Désolé, je n'ai pas compris votre question. Vous pouvez me demander des informations sur les machines disponibles, les horaires d'ouverture, les formations, ou comment devenir membre. Vous pouvez également suivre notre page Facebook (FabLab Pédagogique Fès) pour plus d'informations. Comment puis-je vous aider ?"
+} 

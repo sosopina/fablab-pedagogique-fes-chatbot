@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot FabLab Fès</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="logo.png" alt="FabLab Logo" class="logo-img">
+                </div>
+                <div class="header-text">
+                    <h1>FabLab Pédagogique de Fès</h1>
+                    <p>Assistant Virtuel</p>
+                </div>
+                <div class="header-actions">
+                    <button class="info-button" title="Plus d'informations">
+                        <i class="fas fa-info-circle"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot-message">
+                Bonjour ! Je suis l'assistant du FabLab Pédagogique de Fès. Comment puis-je vous aider ?
+            </div>
+        </div>
+        <div class="chat-input">
+            <div class="input-wrapper">
+                <input type="text" id="user-input" placeholder="Posez votre question ici...">
+                <button id="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            <div class="quick-actions">
+                <button class="quick-action-btn" data-question="Quelles machines sont disponibles ?">
+                    <i class="fas fa-tools"></i>
+                    Machines
+                </button>
+                <button class="quick-action-btn" data-question="Quels sont les horaires d'ouverture ?">
+                    <i class="fas fa-clock"></i>
+                    Horaires
+                </button>
+                <button class="quick-action-btn" data-question="Comment devenir membre ?">
+                    <i class="fas fa-user-plus"></i>
+                    Adhésion
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="info-modal" id="info-modal">
+        <div class="modal-content">
+            <h2>À propos du FabLab</h2>
+            <p>Le FabLab Pédagogique de Fès est un espace de création et d'innovation ouvert à tous.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/FabLabPedagogiqueFes" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/fablab.pedagogiquedefes" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <button class="close-modal">Fermer</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
