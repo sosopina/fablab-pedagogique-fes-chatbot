@@ -3,69 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot FabLab Fès</title>
+    <title>FabLab Pédagogique de Fès - Assistant Virtuel</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="chat-container">
-        <div class="chat-header">
-            <div class="header-content">
-                <div class="logo">
-                    <img src="logo.png" alt="FabLab Logo" class="logo-img">
+    <div class="background-overlay"></div>
+    <div class="main-container">
+        <header class="main-header">
+            <nav class="nav-container">
+                <div class="logo-container">
+                    <img src="img/logo.jpg" alt="FabLab Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1>FabLab Pédagogique de Fès</h1>
+                        <p>Espace d'Innovation et de Création</p>
+                    </div>
                 </div>
-                <div class="header-text">
-                    <h1>FabLab Pédagogique de Fès</h1>
-                    <p>Assistant Virtuel</p>
+                <div class="nav-links">
+                    <a href="#" class="nav-link active">Accueil</a>
+                    <a href="#" class="nav-link">À propos</a>
+                    <a href="#" class="nav-link">Équipements</a>
+                    <a href="#" class="nav-link">Contact</a>
                 </div>
-                <div class="header-actions">
-                    <button class="info-button" title="Plus d'informations">
-                        <i class="fas fa-info-circle"></i>
-                    </button>
+            </nav>
+        </header>
+
+        <div class="content-wrapper">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="header-content">
+                        <h2>Assistant Virtuel</h2>
+                        <p>Comment puis-je vous aider aujourd'hui ?</p>
+                    </div>
+                </div>
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message bot-message">
+                        Bonjour ! Je suis l'assistant du FabLab Pédagogique de Fès. Comment puis-je vous aider ?
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <div class="input-wrapper">
+                        <input type="text" id="user-input" placeholder="Posez votre question ici...">
+                        <button id="send-button">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <div class="quick-actions">
+                        <button class="quick-action-btn" data-question="Quelles machines sont disponibles ?">
+                            <i class="fas fa-tools"></i>
+                            Machines
+                        </button>
+                        <button class="quick-action-btn" data-question="Quels sont les horaires d'ouverture ?">
+                            <i class="fas fa-clock"></i>
+                            Horaires
+                        </button>
+                        <button class="quick-action-btn" data-question="Comment devenir membre ?">
+                            <i class="fas fa-user-plus"></i>
+                            Adhésion
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="chat-messages" id="chat-messages">
-            <div class="message bot-message">
-                Bonjour ! Je suis l'assistant du FabLab Pédagogique de Fès. Comment puis-je vous aider ?
+
+        <footer class="main-footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: contact@fablabfes.ma</p>
+                    <p>Téléphone: +212 669-278245</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/FabLabPedagogiqueFes" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/fablab.pedagogiquedefes" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="chat-input">
-            <div class="input-wrapper">
-                <input type="text" id="user-input" placeholder="Posez votre question ici...">
-                <button id="send-button">
-                    <i class="fas fa-paper-plane"></i>
-                </button>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FabLab Pédagogique de Fès. Tous droits réservés.</p>
             </div>
-            <div class="quick-actions">
-                <button class="quick-action-btn" data-question="Quelles machines sont disponibles ?">
-                    <i class="fas fa-tools"></i>
-                    Machines
-                </button>
-                <button class="quick-action-btn" data-question="Quels sont les horaires d'ouverture ?">
-                    <i class="fas fa-clock"></i>
-                    Horaires
-                </button>
-                <button class="quick-action-btn" data-question="Comment devenir membre ?">
-                    <i class="fas fa-user-plus"></i>
-                    Adhésion
-                </button>
-            </div>
-        </div>
+        </footer>
     </div>
+
     <div class="info-modal" id="info-modal">
         <div class="modal-content">
             <h2>À propos du FabLab</h2>
             <p>Le FabLab Pédagogique de Fès est un espace de création et d'innovation ouvert à tous.</p>
-            <div class="social-links">
-                <a href="https://www.facebook.com/FabLabPedagogiqueFes" target="_blank">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com/fablab.pedagogiquedefes" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
             <button class="close-modal">Fermer</button>
         </div>
     </div>

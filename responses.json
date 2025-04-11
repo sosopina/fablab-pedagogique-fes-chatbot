@@ -1,65 +1,138 @@
 {
     "questions": [
         {
-            "question": "Qu'est-ce que le FabLab ?",
-            "answer": "Le FabLab Pédagogique de Fès est un espace de création et d'innovation où vous pouvez apprendre à utiliser différentes machines et technologies pour réaliser vos projets. C'est un lieu d'apprentissage et de partage de connaissances, ouvert à tous les passionnés de fabrication numérique."
+            "question": "Qu'est-ce que l'association de robotique ?",
+            "answer": "C'est un groupe d'étudiants passionnés par la robotique qui conçoivent, fabriquent et programment des robots pour apprendre et participer à des compétitions."
         },
         {
-            "question": "Quelles machines sont disponibles ?",
-            "answer": "Nous avons des imprimantes 3D, des découpeuses laser, des fraiseuses CNC, des machines à coudre, des outils électroniques, et bien d'autres équipements pour la fabrication numérique et traditionnelle. Toutes nos machines sont disponibles pour les membres après une formation de sécurité."
+            "question": "Quels types de projets réalisez-vous ?",
+            "answer": "Nous développons des projets autour de différents types de robots, tels que des suiveurs de ligne, des bras mécanisés, ainsi que des concepts innovants dans les domaines de l'intelligence artificielle et de l'automatisation."
+        },
+         {
+            "question": "Qu'est-ce que le FabLab ?",
+            "answer": "Le FabLab Pédagogique de Fès est un espace de création et d'innovation où vous pouvez apprendre à utiliser différentes machines et technologies pour réaliser vos projets."
         },
         {
             "question": "Comment devenir membre ?",
-            "answer": "Pour devenir membre, vous pouvez venir nous voir au FabLab pendant les heures d'ouverture. Nous proposons différentes formules d'adhésion adaptées à vos besoins : étudiant, professionnel, ou entreprise. N'hésitez pas à nous contacter pour plus d'informations sur les tarifs et les avantages."
+            "answer": "Pour devenir membre, vous pouvez venir nous voir au FabLab pendant les heures d'ouverture et remplir un formulaire d'inscription."
         },
         {
             "question": "Quels sont les horaires d'ouverture ?",
-            "answer": "Le FabLab est ouvert du lundi au vendredi de 9h à 18h, et le samedi de 10h à 16h. Nous sommes fermés le dimanche. Pendant les vacances scolaires, les horaires peuvent être modifiés, consultez notre page Facebook pour les mises à jour."
-        },
-        {
-            "question": "Y a-t-il des formations ?",
-            "answer": "Oui, nous proposons régulièrement des formations sur différentes machines et technologies. Nous organisons également des ateliers thématiques, des workshops, et des événements spéciaux. Suivez notre page Facebook pour rester informé des prochaines formations."
-        },
-        {
-            "question": "Combien coûte l'adhésion ?",
-            "answer": "Les tarifs varient selon votre statut (étudiant, professionnel, etc.) et la formule choisie. Nous proposons des tarifs adaptés pour les étudiants et des formules mensuelles ou annuelles. Contactez-nous pour plus de détails sur nos offres spéciales."
+            "answer": "Le FabLab est ouvert le mercredi et le samedi après-midi, de 14h à 18h."
         },
         {
             "question": "Puis-je venir avec mon propre projet ?",
-            "answer": "Absolument ! Nous encourageons les membres à venir avec leurs propres projets. Nos mentors peuvent vous aider à les réaliser et vous guider dans l'utilisation des machines. C'est même la meilleure façon d'apprendre et de progresser !"
-        },
+            "answer": "Absolument ! Nous encourageons les membres à venir avec leurs propres projets."
+        }, 
         {
             "question": "Qui peut utiliser le FabLab ?",
-            "answer": "Le FabLab est ouvert à tous : étudiants, professionnels, artistes, entrepreneurs, et toute personne intéressée par la fabrication numérique. Nous accueillons également les groupes scolaires et les entreprises pour des projets spécifiques."
+            "answer": "Le FabLab est ouvert à tous : étudiants, professionnels, artistes, entrepreneurs, et toute personne intéressée par la fabrication numérique."
         },
         {
-            "question": "Quels types de projets peut-on réaliser ?",
-            "answer": "Vous pouvez réaliser une grande variété de projets : prototypage, objets décoratifs, vêtements, projets électroniques, meubles, et bien plus encore. Les seules limites sont votre imagination et les règles de sécurité du FabLab. Consultez notre page Facebook pour voir des exemples de projets réalisés."
+            "question": "Faut-il avoir des connaissances en robotique pour adhérer ?",
+            "answer": "Pas du tout ! Tout le monde est le bienvenu, même les débutants. On apprend tous ensemble."
         },
         {
-            "question": "Y a-t-il des règles de sécurité ?",
-            "answer": "Oui, la sécurité est primordiale au FabLab. Tous les utilisateurs doivent suivre une formation de sécurité avant d'utiliser les machines. Le port d'équipements de protection est obligatoire pour certaines machines. Ces règles sont là pour assurer la sécurité de tous."
+            "question": "Organisez-vous des formations ?",
+            "answer": "Oui, nous proposons des ateliers sur Microbit, la programmation, l'électronique et d'autres sujets liés à la robotique."
         },
         {
-            "question": "Proposez-vous des services pour les entreprises ?",
-            "answer": "Oui, nous proposons des services aux entreprises : prototypage rapide, formation du personnel, location d'espace, et accompagnement dans vos projets de fabrication numérique. Contactez-nous pour discuter de vos besoins spécifiques."
+            "question": "Participez-vous à des compétitions ?",
+            "answer": "Oui, nous participons à des compétitions locales et nationales."
         },
         {
-            "question": "Comment puis-je suivre vos actualités ?",
-            "answer": "Vous pouvez nous suivre sur Facebook (FabLab Pédagogique Fès) et Instagram (@fablab.pedagogiquedefes) pour rester informé de nos dernières actualités, événements et projets. Nous y partageons régulièrement des photos de nos réalisations et des informations sur nos activités."
+            "question": "Quand avez-vous des réunions ?",
+            "answer": "Nous nous réunissons tous les mercredis et samedis après-midi dans notre local au sein de l'école."
+        },
+         {
+            "question": "Quel est l'objectif de l'association ?",
+            "answer": "Notre objectif est de promouvoir la robotique, de développer les compétences techniques des membres et de représenter notre établissement lors d'événements."
         },
         {
-            "question": "Organisez-vous des événements ?",
-            "answer": "Oui, nous organisons régulièrement des événements : workshops, hackathons, journées portes ouvertes, et rencontres avec des experts. Suivez notre page Facebook pour ne pas manquer nos prochains événements !"
+            "question": "Travaillez-vous en équipe ?",
+            "answer": "Oui, tous les projets sont réalisés en équipe pour favoriser la collaboration et le partage de connaissances."
         },
         {
-            "question": "Puis-je venir juste pour visiter ?",
-            "answer": "Bien sûr ! Nous organisons régulièrement des journées portes ouvertes où vous pouvez venir découvrir le FabLab, nos machines, et discuter avec nos membres. Vous pouvez également prendre rendez-vous pour une visite guidée."
+            "question": "Est-ce que vous organisez des événements ?",
+            "answer": "Oui, nous organisons des journées de démonstration et des compétitions internes."
         },
         {
-            "question": "Y a-t-il des projets communautaires ?",
-            "answer": "Oui, nous encourageons les projets communautaires et collaboratifs. C'est l'occasion de rencontrer d'autres passionnés, d'échanger des idées, et de réaliser des projets ensemble. Consultez notre page Facebook pour voir nos projets en cours."
+            "question": "Qui est le président de l'association ?",
+            "answer": "Notre FabLab fonctionne avec une coprésidence : Mr Chafik Jamal et Mr Hamid Tebbane en partagent les responsabilités depuis leur élection en assemblée générale.. Ils coordonnent les activités et représentent l'association officiellement."
+        },
+        {
+            "question": "Y a-t-il un responsable technique ?",
+            "answer": "Oui, Mr Oussama Zaim c'est le responsable technique supervise les projets robotiques, aide les membres sur le plan technique, et veille à la bonne utilisation du matériel."
+        },
+        {
+            "question": "Les anciens membres gardent-ils contact ?",
+            "answer": "Oui, beaucoup d'anciens membres restent en lien avec l'association et reviennent parfois pour partager leur expérience ou encadrer des ateliers."
+        },
+        {
+            "question": "Est-ce qu'il y a un groupe WhatsApp ou Discord ?",
+            "answer": "Oui, un groupe WhatsApp est utilisé pour communiquer entre les membres, partager les infos, les ressources et les événements."
+        },
+        {
+            "question": "Qu'est-ce que le Printemps des Sciences ?",
+            "answer": "Le Printemps des Sciences est un événement annuel qui célèbre les sciences à travers des expositions, des ateliers, des conférences et des démonstrations interactives."
+        },
+        {
+            "question": "Est-ce que l'association participe au Printemps des Sciences ?",
+            "answer": "Oui, notre association participe chaque année en présentant des projets robotiques réalisés par les membres."
+        },
+        {
+            "question": "Où se déroule le Printemps des Sciences ?",
+            "answer": "L'événement se déroule généralement dans notre établissement ou dans des espaces dédiés aux sciences et à la technologie, selon l'organisation."
+        },
+        {
+            "question": "Pourquoi participez-vous au Printemps des Sciences ?",
+            "answer": "C'est une occasion parfaite de partager notre passion, de sensibiliser le public à la robotique et d'inspirer les jeunes à s'intéresser aux sciences."
+        },
+        {
+            "question": "Qui peut visiter votre stand au Printemps des Sciences ?",
+            "answer": "Tout le monde est le bienvenu : élèves, étudiants, enseignants, familles et curieux de tous âges !"
+        },
+        {
+            "question": "Est-ce que vous proposez des démonstrations en direct ?",
+            "answer": "Oui ! Lors du Printemps des Sciences, nous faisons des démonstrations en direct de nos robots, avec des explications interactives pour le public."
+        },
+        {
+            "question": "Comment préparez-vous le Printemps des Sciences ?",
+            "answer": "Nous préparons l'événement plusieurs semaines à l'avance : choix des projets, tests, affiches explicatives, et répétitions des présentations."
+        },
+        {
+            "question": "Avez-vous déjà gagné un prix pendant le Printemps des Sciences ?",
+            "answer": "Oui, nous avons parfois été récompensés pour la qualité de nos projets et notre capacité à vulgariser la robotique auprès du grand public."
+        },
+        {
+            "question": "Peut-on voir des vidéos de vos précédentes participations ?",
+            "answer": "Oui, nous partageons souvent des photos et vidéos sur nos réseaux sociaux."
+        },
+        {
+            "question": "Quels composants utilisez-vous pour vos robots ?",
+            "answer": "Nous utilisons des microcontrôleurs comme Microbit, des capteurs, des moteurs, des roues, des batteries etc."
+        },
+         {
+            "question": "Comment puis-je apprendre à programmer un robot ?",
+            "answer": "Nous organisons régulièrement des ateliers de programmation (C/C++ pour Arduino, Python, etc.) pour aider tous les membres à progresser."
+        },
+        {
+            "question": "Est-ce que le FabLab collabore avec d'autres institutions ?",
+            "answer": "Oui, nous collaborons régulièrement avec des Universités, des Instituts comme l'Institut Francais,Mobisciences,Erasmus+,Fondation Jeunes Scientifiques Luxembourg,Jeunesses Scientifique,Fundaçao da juventude,Emilset Africa pour développer des projets communs."
+        },
+        {
+            "question": "Comment faire pour collaborer avec votre FabLab ?",
+            "answer": "Il suffit de nous contacter par mail ou de venir nous rencontrer pour discuter de votre idée de partenariat. Nous sommes toujours ouverts aux propositions."
+        },
+        
+        {
+            "question": "Y a-t-il des frais d'adhésion ?",
+            "answer": "Pas du tout ! L'accès est gratuit, alors n'hésitez pas à passer nous voir pour découvrir nos équipements."
+        },
+        {
+            "question": "Quelles machines sont disponibles ?",
+            "answer": "Le FabLab dispose de plusieurs machines, notamment des imprimantes 3D, des découpeuses laser, des fraiseuses numériques, des machines à coudre électroniques, et des équipements d'électronique. Chaque machine est accompagnée d'une formation pour apprendre à l'utiliser en toute sécurité."
         }
     ],
-    "default_response": "Désolé, je n'ai pas compris votre question. Vous pouvez me demander des informations sur les machines disponibles, les horaires d'ouverture, les formations, ou comment devenir membre. Vous pouvez également suivre notre page Facebook (FabLab Pédagogique Fès) pour plus d'informations. Comment puis-je vous aider ?"
-} 
+    "default_response": "Désolé, je n'ai pas compris votre question. Pouvez-vous la reformuler ?"
+}
